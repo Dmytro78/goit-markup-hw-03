@@ -40,6 +40,18 @@ li {
   overflow: hidden;
 }
 
+.conteiner {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  outline: 2px solid tomato; /*DELL*/
+}
+
+.nav {
+  display: flex;
+}
+
 .logo,
 .logo-footer {
   font-size: 26px;
