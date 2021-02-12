@@ -46,9 +46,9 @@ li {
   box-sizing: border-box;
 }
 
-/* {
+* {
   padding-left: 0px;
-}*/
+}
 
 .container {
   width: 1200px;
@@ -65,14 +65,15 @@ li {
 }
 
 .nav {
+  padding-left: 0px;
   justify-content: space-between;
   align-items: center;
-
-  padding-top: 24px;
 }
 
 .logo,
 .logo-footer {
+  margin-top: 24px;
+  margin-bottom: 25px;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -80,6 +81,14 @@ li {
 
 .links li {
   margin-left: 50px;
+}
+
+.links li: :first-child {
+  padding-left: 0px;
+}
+
+.links li:last-child {
+  margin-right: 331px;
 }
 
 .links-item,
