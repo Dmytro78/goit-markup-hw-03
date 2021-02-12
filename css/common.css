@@ -46,7 +46,9 @@ li {
   box-sizing: border-box;
 }
 
-* {
+*,
+*::before,
+*::after {
   padding-left: 0px;
 }
 
@@ -74,6 +76,7 @@ li {
 .logo-footer {
   margin-top: 24px;
   margin-bottom: 25px;
+  margin-right: 43px;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -81,10 +84,6 @@ li {
 
 .links li {
   margin-left: 50px;
-}
-
-.links li: :first-child {
-  padding-left: 0px;
 }
 
 .links li:last-child {
