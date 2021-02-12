@@ -46,6 +46,10 @@ li {
   box-sizing: border-box;
 }
 
+/* {
+  padding-left: 0px;
+}*/
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -54,11 +58,17 @@ li {
   outline: 2px solid tomato; /*DELL*/
 }
 
-.header,
 .nav,
-.header > .contakts {
+.links,
+.header .contakts {
   display: flex;
+}
+
+.nav {
   justify-content: space-between;
+  align-items: center;
+
+  padding-top: 24px;
 }
 
 .logo,
@@ -66,8 +76,10 @@ li {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+}
 
-  margin: 24px 0px 25px 15px;
+.links li {
+  margin-left: 50px;
 }
 
 .links-item,
@@ -75,9 +87,10 @@ li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+}
 
-  display: flex;
-  justify-content: flex-centr;
+.contakts li:last-child {
+  margin-left: 50px;
 }
 
 .hero-h1 {
@@ -147,9 +160,9 @@ li {
   color: var(--main-gray);
 }
 
-.links {
+/*.links {
   display: flex;
-}
+}*/
 
 .links-item {
   color: var(--main-text-color);
