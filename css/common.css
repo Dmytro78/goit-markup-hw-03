@@ -1,0 +1,169 @@
+:root {
+  --main-text-color: #000000;
+  --text-color: #ffffff;
+  --button-color: #2196f3;
+  --main-gray: #757575;
+  --gray-op60: #ffffff 60%;
+  --accent-background-color: #2f303a;
+  --background-color: #f5f4fa;
+}
+
+/*:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --gray-text-op100: rgba(117, 117, 117, 1);
+  --gray-text-op60: rgba(255, 255, 255, 0.6);
+  --black-text: rgba(33, 33, 33, 1);
+  --gray-background: rgba(47, 48, 58, 1);
+  --gray-background2: rgba(245, 244, 250, 1);
+}*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logo,
+.logo-footer {
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.links-item,
+.contakts-item {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.hero-h1 {
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.post-title {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.post-text,
+.adress,
+.address .contakts-item {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address .contakts-item {
+  color: var(--gray-op60);
+}
+
+.works,
+.ot-h2 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.ot-list-itemh,
+.ot-list-itemp {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.btn,
+.logo,
+.links-item,
+.contakts-item,
+.logo-footer,
+.adress {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--main-text-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-footer {
+  color: var(--text-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.web {
+  color: var(--button-color);
+}
+
+.contakts-item {
+  color: var(--main-gray);
+}
+
+.links-item {
+  color: var(--main-text-color);
+}
+
+.links .links-item.carrnet {
+  color: var(--button-color);
+}
+
+.links-item:hover,
+.links-item:focus,
+.contakts-item:hover,
+.contakts-item:focus {
+  color: var(--button-color);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--button-color);
+  color: var(--text-color);
+}
+
+.footer {
+  background: var(--accent-background-color);
+  color: var(--text-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.adress {
+  color: var(--text-color);
+}
+
+.post-title,
+.ot-list-itemh {
+  color: var(--main-text-color);
+}
+
+.post-text,
+.ot-list-itemp {
+  color: var(--main-gray);
+}

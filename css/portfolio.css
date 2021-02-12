@@ -1,0 +1,22 @@
+.btn {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+.post-itemh {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.post-itemps,
+.post-itempd,
+.post-itempm,
+.post-itempa {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--main-gray);
+}
