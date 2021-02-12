@@ -40,7 +40,13 @@ li {
   overflow: hidden;
 }
 
-.conteiner {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -48,8 +54,11 @@ li {
   outline: 2px solid tomato; /*DELL*/
 }
 
-.nav {
+.header,
+.nav,
+.header > .contakts {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo,
@@ -57,6 +66,8 @@ li {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+
+  margin: 24px 0px 25px 15px;
 }
 
 .links-item,
@@ -64,6 +75,9 @@ li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+
+  display: flex;
+  justify-content: flex-centr;
 }
 
 .hero-h1 {
@@ -131,6 +145,10 @@ li {
 
 .contakts-item {
   color: var(--main-gray);
+}
+
+.links {
+  display: flex;
 }
 
 .links-item {
