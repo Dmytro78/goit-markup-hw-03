@@ -94,6 +94,9 @@ li {
 }
 
 .hero-h1 {
+  padding-top: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
