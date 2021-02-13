@@ -4,8 +4,80 @@
   text-align: center;
 }
 
-.hero.conttainer {
+.hero.container {
   height: 600px;
+}
+
+.post,
+.works-images {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.post li {
+  margin-left: 30px;
+}
+
+.post li:first-child {
+  margin-left: 0px;
+}
+
+.post-title {
+  margin-top: 94px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.works,
+.ot-h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 94px;
+
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+.works-images {
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ot-list {
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.ot-list-itemh,
+.ot-list-itemp {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.ot-list-itemh {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.ot-list-itemp {
+  margin-top: 0px;
 }
 
 .btn {
@@ -22,4 +94,8 @@
 
 .ot {
   background: var(--background-color);
+}
+
+.ot .container {
+  height: 648px;
 }
