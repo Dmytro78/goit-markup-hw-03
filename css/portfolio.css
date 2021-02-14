@@ -1,3 +1,7 @@
+.header .container {
+  border-bottom: 1px solid #ececec;
+}
+
 .btn {
   font-size: 16px;
   line-height: 26px;
@@ -32,10 +36,6 @@
   margin-bottom: 0px;
 }
 
-/*.container {
-  border-top: 1px solid #ececec;
-}*/
-
 .btns,
 .post {
   display: flex;
@@ -50,7 +50,6 @@
   margin-left: -30px;
   margin-top: -30px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
 }
 
 .post li {
@@ -60,4 +59,8 @@
 .post-item {
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.post {
+  margin-bottom: 114px;
 }
