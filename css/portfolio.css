@@ -2,6 +2,9 @@
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
+  margin-left: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .post-itemh {
@@ -19,4 +22,19 @@
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--main-gray);
+}
+
+.post-item:nth-child(3n + 1) {
+}
+
+.conteiner {
+  border-top: 1px solid #ececec;
+}
+
+.btns,
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
 }

@@ -44,11 +44,6 @@ li {
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
   padding-left: 0px;
 }
 
@@ -56,8 +51,6 @@ li {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-
-  outline: 2px solid tomato; /*DELL*/
 }
 
 .nav,
@@ -72,14 +65,15 @@ li {
   align-items: center;
 }
 
-.logo,
-.logo-footer {
+.logo {
   margin-top: 24px;
   margin-bottom: 25px;
   margin-right: 43px;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  font-family: 'Raleway', sans-serif;
 }
 
 .links li {
@@ -97,8 +91,17 @@ li {
   letter-spacing: 0.02em;
 }
 
-.contakts li:last-child {
-  margin-left: 50px;
+.contakts {
+  margin-top: 9px;
+}
+
+.contakts li:first-child {
+  margin-right: 50px;
+}
+
+.contakts li {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .hero-h1 {
@@ -132,12 +135,13 @@ li {
   text-decoration: none;
 }
 
-.logo {
-  color: var(--main-text-color);
-  font-family: 'Raleway', sans-serif;
-}
-
 .logo-footer {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--text-color);
   font-family: 'Raleway', sans-serif;
 }
@@ -149,10 +153,6 @@ li {
 .contakts-item {
   color: var(--main-gray);
 }
-
-/*.links {
-  display: flex;
-}*/
 
 .links-item {
   color: var(--main-text-color);
