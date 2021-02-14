@@ -84,6 +84,7 @@
   padding: 10px 32px;
   margin-top: 30px;
   margin-bottom: 200px;
+  border-style: hidden;
   border-radius: 4px;
   background: var(--button-color);
   color: var(--text-color);
