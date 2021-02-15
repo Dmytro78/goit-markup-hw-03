@@ -20,9 +20,8 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding-left: 24px;
+  margin: 0px;
+  padding-bottom: 4px;
 }
 
 .post-itemps,
@@ -33,10 +32,8 @@
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--main-gray);
-  margin-top: 4px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
 
 .btns,
@@ -66,6 +63,6 @@
   border: 1px solid #ececec;
 }
 
-.post .h3 {
-  margin-left: 20px;
+.post .name-card {
+  padding: 20px 24px;
 }

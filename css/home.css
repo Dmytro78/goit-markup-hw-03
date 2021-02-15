@@ -65,6 +65,10 @@
   padding-bottom: 94px;
 }
 
+.ot-list .name-card {
+  padding: 30px 0px;
+}
+
 .ot-list li {
   background: var(--text-color--);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -73,8 +77,7 @@
 }
 
 .ot-list-itemh {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 0px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -83,6 +86,8 @@
 
 .ot-list-itemp {
   margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
