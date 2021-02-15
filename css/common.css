@@ -55,6 +55,10 @@ li {
   /*outline: 2px solid red;*/
 }
 
+.img {
+  display: block;
+}
+
 .nav,
 .links,
 .header .contakts {
@@ -80,6 +84,8 @@ li {
 
 .links li {
   margin-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .links li:last-child {
@@ -95,6 +101,7 @@ li {
 
 .contakts {
   margin-top: 9px;
+  margin-bottom: 0px;
 }
 
 .contakts li:first-child {
@@ -103,7 +110,6 @@ li {
 
 .contakts li {
   margin-top: 9px;
-  margin-bottom: 9px;
 }
 
 .hero-h1 {
@@ -185,12 +191,13 @@ li {
   color: var(--text-color);
 }
 
-.footer .container {
+/*.footer .container {
   height: 252px;
-}
+}*/
 
 .address {
   font-style: normal;
+  padding-bottom: 60px;
 }
 
 .adress {
