@@ -99,17 +99,8 @@ li {
   letter-spacing: 0.02em;
 }
 
-.contakts {
-  margin-top: 9px;
-  margin-bottom: 0px;
-}
-
 .contakts li:first-child {
   margin-right: 50px;
-}
-
-.contakts li {
-  margin-top: 9px;
 }
 
 .hero-h1 {
@@ -132,6 +123,14 @@ li {
 
 .address .contakts-item {
   color: var(--gray-op60);
+}
+
+.address > .contakts {
+  margin-top: 0px;
+}
+
+.address > .contakts li {
+  margin-top: 9px;
 }
 
 .btn,
