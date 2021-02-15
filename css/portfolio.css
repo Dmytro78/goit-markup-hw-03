@@ -22,7 +22,7 @@
   color: var(--main-text-color);
   margin-top: 20px;
   margin-bottom: 4px;
-  padding-left: 20px;
+  padding-left: 24px;
 }
 
 .post-itemps,
@@ -35,6 +35,8 @@
   color: var(--main-gray);
   margin-top: 4px;
   margin-bottom: 0px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .btns,
@@ -43,14 +45,15 @@
   justify-content: center;
   align-items: center;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .post {
   flex-wrap: wrap;
   align-items: center;
-  margin-left: -30px;
-  margin-top: -30px;
-  margin-bottom: 0px;
+  margin-left: -42px;
+  margin-top: -42px;
+  padding-bottom: 94px;
 }
 
 .post li {
