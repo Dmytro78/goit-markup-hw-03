@@ -97,8 +97,12 @@ li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.links-item {
+  display: block;
 }
 
 .contakts li:first-child {
@@ -135,7 +139,7 @@ li {
 
 .logo-footer {
   display: inline-block;
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: 20px;
   font-size: 26px;
   line-height: 31px;
@@ -154,6 +158,7 @@ li {
 
 .links-item {
   color: var(--main-text-color);
+  text-align: center;
 }
 
 .links .links-item.carrnet {
@@ -179,15 +184,16 @@ li {
 .footer {
   background: var(--accent-background-color);
   color: var(--text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-/*.footer .container {
-  height: 252px;
-}*/
+.footer .contakts {
+  margin-bottom: 0px;
+}
 
 .address {
   font-style: normal;
-  padding-bottom: 60px;
 }
 
 .adress {
