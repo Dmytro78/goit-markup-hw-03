@@ -52,7 +52,7 @@ li {
   padding: 0 15px;
   margin: 0 auto;
 
-  /*outline: 2px solid red;*/
+  /* outline: 2px solid red;*/
 }
 
 .img {
@@ -63,6 +63,8 @@ li {
 .links,
 .header .contakts {
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .nav {
@@ -84,8 +86,6 @@ li {
 
 .links li {
   margin-left: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .links li:last-child {
@@ -97,23 +97,14 @@ li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .contakts li:first-child {
   margin-right: 50px;
 }
 
-.hero-h1 {
-  padding-top: 200px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.post-text,
 .adress,
 .address .contakts-item {
   font-size: 14px;

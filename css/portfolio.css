@@ -2,13 +2,21 @@
   border-bottom: 1px solid #ececec;
 }
 
+.container.portfolio {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .btn {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
   padding: 6px 22px;
   margin-left: 8px;
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 50px;
   text-align: center;
   border-style: hidden;
@@ -50,7 +58,6 @@
   align-items: center;
   margin-left: -38px;
   margin-top: -38px;
-  padding-bottom: 94px;
 }
 
 .post li {
@@ -63,6 +70,6 @@
   border: 1px solid #ececec;
 }
 
-.post .name-card {
+.name-card {
   padding: 20px 24px;
 }
