@@ -106,7 +106,31 @@ li {
   margin-right: 50px;
 }
 
+.address {
+  display: block;
+
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.contakts-mailto,
+.contakts-tel {
+  color: var(--gray-op60);
+}
+
+.contakts-mailto {
+  margin: 9px 0;
+}
+
 .adress,
+.contakts-mailto,
+.contakts-tel {
+  display: block;
+  text-decoration: none;
+}
+
+/*.adress
 .address .contakts-item {
   font-size: 14px;
   line-height: 24px;
@@ -123,14 +147,13 @@ li {
 
 .address > .contakts li {
   margin-top: 9px;
-}
+}*/
 
 .btn,
 .logo,
 .links-item,
 .contakts-item,
-.logo-footer,
-.adress {
+.logo-footer {
   text-decoration: none;
 }
 
