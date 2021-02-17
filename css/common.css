@@ -108,10 +108,14 @@ li {
 
 .address {
   display: block;
-
+  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.adress {
+  color: var(--text-color);
 }
 
 .contakts-mailto,
@@ -211,14 +215,6 @@ li {
 
 .footer .contakts {
   margin-bottom: 0px;
-}
-
-.address {
-  font-style: normal;
-}
-
-.adress {
-  color: var(--text-color);
 }
 
 .post-title,
