@@ -74,8 +74,8 @@ li {
 }
 
 .logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 43px;
   font-size: 26px;
   line-height: 31px;
@@ -99,10 +99,7 @@ li {
   letter-spacing: 0.02em;
   padding-bottom: 32px;
   padding-top: 32px;
-}
-
-.links-item {
-  display: block;
+  font-weight: 500;
 }
 
 .contakts li:first-child {
@@ -154,6 +151,7 @@ li {
 
 .contakts-item {
   color: var(--main-gray);
+  padding: 0px;
 }
 
 .links-item {

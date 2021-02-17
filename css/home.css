@@ -54,7 +54,7 @@
 
 .post-title {
   margin: 0px;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -111,7 +111,8 @@
 }
 
 .name-cards {
-  padding: 30px 0px;
+  padding: 30px 32px;
+  background-color: #ffffff;
 }
 
 .ot-list li {
@@ -122,7 +123,7 @@
 }
 
 .ot-list-itemh {
-  margin: 0px;
+  margin: 0 0 10px 0;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -132,7 +133,6 @@
 .ot-list-itemp {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 10px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
