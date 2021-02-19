@@ -74,8 +74,7 @@ li {
 }
 
 .logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding: 24px 0;
   margin-right: 43px;
   font-size: 26px;
   line-height: 31px;
@@ -85,7 +84,7 @@ li {
 }
 
 .links li {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .links li:last-child {
@@ -123,8 +122,9 @@ li {
   color: var(--gray-op60);
 }
 
+.adress,
 .contakts-mailto {
-  margin: 9px 0;
+  margin-bottom: 9px;
 }
 
 .adress,
@@ -179,11 +179,13 @@ li {
 .contakts-item {
   color: var(--main-gray);
   padding: 0px;
+  display: block;
 }
 
 .links-item {
   color: var(--main-text-color);
   text-align: center;
+  display: block;
 }
 
 .links .links-item.carrnet {
